@@ -4,16 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
     android:background="@color/gray"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <GridView
-        android:horizontalSpacing="5pt"
-        android:verticalSpacing="5pt"
-        android:columnWidth="70pt"
-        android:numColumns="auto_fit"
         android:id="@+id/gvListFood"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="685dp"
+        android:columnWidth="70pt"
+        android:horizontalSpacing="5pt"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="5pt" />
+
+    <Button
+        android:id="@+id/btCC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:text="Calculate Calories"
+        android:visibility="visible" />
+
 </LinearLayout>
