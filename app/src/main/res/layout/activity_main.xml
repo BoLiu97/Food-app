@@ -11,7 +11,7 @@
     <GridView
         android:id="@+id/gvListFood"
         android:layout_width="match_parent"
-        android:layout_height="685dp"
+        android:layout_height="577dp"
         android:columnWidth="70pt"
         android:horizontalSpacing="5pt"
         android:numColumns="auto_fit"
